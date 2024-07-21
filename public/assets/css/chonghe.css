@@ -1,0 +1,135 @@
+.no-scroll {
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+.container_booking {
+    background-color: #f9f9f9;
+}
+
+.booking_progress-bar {
+    background-color: #fff;
+}
+
+.booking_progress-bar ul {
+    list-style: none;
+    margin: 0;
+    padding:0;
+}
+.booking_progress-bar ul li {
+    padding: 15px;
+    color: #d0d0d0;
+    border-bottom: 2px solid  #d0d0d0;
+}
+.done {
+    border-bottom: 2px solid  #034ea2!important;
+    color: #7d8eca!important;
+}
+
+.active {
+    border-bottom: 2px solid  #034ea2!important;
+    color: #034ea2!important;
+}
+
+.change_screening_times {
+    width: 800px;
+    max-width: 800px;
+    background-color: #fff;
+}
+
+.change_screening_times button {
+    border: 1px solid #e5e7eb;
+}
+
+.change_screening_times button:hover {
+    background-color: #034ea2;
+    color: white;
+}
+
+.active_btn {
+    background-color: #034ea2;
+    color: white;
+}
+
+.pick_seat {
+    width: 800px;
+    max-width: 800px;
+    background-color: #fff;
+    margin-top: 30px;
+}
+
+.pick_seat ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.double_seat {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    gap: 2px;
+    width: 48px;
+    height: 20px;
+    border: 1px solid #034ea2;
+    border-radius: 3px;
+    padding: 0px;
+}
+
+.pick_seat button span {
+    display: inline-block;
+    font-size: 0.7rem;
+    width: 20px;
+}
+
+.pick_seat button:hover {
+    background-color: #f58020!important;
+    color: white!important;
+}
+
+.single_seat {
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #d0d0d0;
+    border-radius: 3px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seat_sold {
+    background-color: #d0d0d0;
+}
+
+.booking_right {
+    width: 385px;
+    max-width: 385px;
+}
+
+.booking_right-content {
+    background-color: #fff;
+    border-top: 5px solid #f58020;
+    border-radius: 5px;
+}
+
+.selected {
+    background-color: #f58020!important;
+    color: white!important;
+    border: none;
+}
+
+.overlay_warning {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+    overflow: hidden;
+}

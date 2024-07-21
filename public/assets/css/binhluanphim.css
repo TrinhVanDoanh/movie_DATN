@@ -1,0 +1,116 @@
+.container-content {
+    max-width: 1200px;
+}
+
+.content_left {
+    max-width: 790px;
+}
+
+.link_pages a:hover {
+    text-decoration: underline!important;
+}
+
+.post_detail button {
+    border: none;
+    outline: none;
+}
+
+.post_detail button:first-child:hover,
+.post_detail button:nth-child(2):hover {
+    background-color: #034ea2!important;
+}
+
+.post_detail p {
+    text-align: justify;
+}
+
+.list_watch_more {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+.list_watch_more > div {
+    text-align: left;
+    font-size: 15px;
+}
+.list_watch_more img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.list_watch_more a {
+    text-decoration: none;
+    color: black;
+}
+
+.content_right {
+    max-width: 380px;
+    width: 380px;
+}
+
+
+.buy_tickets_quickly-title {
+    width: 100%;
+    height: 58px;
+    background-color: #034ea2;
+    color: white;
+    text-transform: capitalize;
+    font-size: 20px;
+    text-align: center;
+    line-height: 58px;
+}
+
+.buy_tickets_quickly-body select {
+    width: 355px;
+    height: 35px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.buy_tickets_quickly-body select option {
+    text-transform: capitalize;
+}
+
+.list_of_currently_showing_movies {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.item_of_currently_showing_movies-img {
+    width: 380px;
+    height: 255px;
+}
+.item_of_currently_showing_movies-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.display_buy_ticket-showing_movies {
+    background-color: rgba(0,0,0,0.4);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.item_of_currently_showing_movies-img:hover .display_buy_ticket-showing_movies {
+    display: flex !important;
+}
+
+.watch_more {
+    border: 1px solid rgb(242, 107, 56,1)!important;
+
+}
+
+.watch_more a {
+    color: rgb(242, 107, 56,1)!important;
+    text-decoration: none;
+}
+.watch_more:hover {
+    background-color:rgb(242, 107, 56,1)!important ;
+}
+
+.watch_more:hover a {
+    color: white!important;
+}

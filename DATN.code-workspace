@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../Giao_Dien_DATN"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "DATN"
+	}
+}

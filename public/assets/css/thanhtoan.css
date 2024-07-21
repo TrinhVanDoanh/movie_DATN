@@ -1,0 +1,74 @@
+.no-scroll {
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+.container_booking {
+    background-color: #f9f9f9;
+}
+
+.booking_progress-bar {
+    background-color: #fff;
+}
+
+.booking_progress-bar ul {
+    list-style: none;
+    margin: 0;
+    padding:0;
+}
+.booking_progress-bar ul li {
+    padding: 15px;
+    color: #d0d0d0;
+    border-bottom: 2px solid  #d0d0d0;
+}
+.done {
+    border-bottom: 2px solid  #034ea2!important;
+    color: #7d8eca!important;
+}
+
+.active {
+    border-bottom: 2px solid  #034ea2!important;
+    color: #034ea2!important;
+}
+
+.payment_img {
+    width: 52px;
+    height: 52px;
+    border-radius: 10px;
+}
+
+.payment_img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.booking_right {
+    width: 385px;
+    max-width: 385px;
+}
+
+.booking_right-content {
+    background-color: #fff;
+    border-top: 5px solid #f58020;
+    border-radius: 5px;
+}
+
+.selected {
+    background-color: #f58020!important;
+    color: white!important;
+    border: none;
+}
+
+.overlay_warning {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+    overflow: hidden;
+}

@@ -1,0 +1,215 @@
+.no-scroll {
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+
+.content_main {
+    max-width: 1200px;
+}
+.content_left{
+    width: 825px;
+}
+
+.img_film {
+    width: 180px;
+    height: 270px;
+}
+
+.img_film img {
+    width: 100%;
+    height: 100%;
+}
+
+.content_right {
+    width: 310px;
+}
+
+.infor_film {
+    width: 540px;
+}
+
+.infor_film a:hover {
+    color:rgba(241,131,41,1)!important;
+    border-color:rgba(241,131,41,1)!important;
+}
+
+.time_move_list {
+    width: 425px;
+}
+
+.time_move_item a {
+    color: black;
+}
+.time_move_list .slick-next {
+    position: absolute;
+    top: 50%;
+    right: -5px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+.time_move_list .slick-prev {
+    position: absolute;
+    top: 50%;
+    left: -25px;
+    z-index: 1;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.active_select_time_move {
+    background-color:#034ea2!important;
+    color: white!important;
+}
+
+.disabled {
+    display: none!important;
+}
+
+.filter_location select {
+    border: none;
+    outline: none;
+    border: 1px solid #ccc;
+    max-width: 165px;
+    width: 165px;
+    height: 36px;
+}
+
+.time_show button {
+    width: 100px;
+    height: 38px;
+    border: 1px solid #ccc;
+    outline: none;
+    background-color: transparent;
+}
+
+.time_show button:hover {
+    color: white;
+    background-color: #034ea2;
+}
+
+.list_of_currently_showing_movies {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.item_of_currently_showing_movies-img {
+    width: 310px;
+    height: 210px;
+}
+.item_of_currently_showing_movies-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.item_of_currently_showing_movies:hover .item_of_currently_showing_movies-hover{
+    display: flex;
+    cursor: pointer;
+}
+
+.item_of_currently_showing_movies-hover {
+    pointer-events: none;
+}
+
+.display_buy_ticket-showing_movies {
+    background-color: rgba(0,0,0,0.4);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.item_of_currently_showing_movies-img:hover .display_buy_ticket-showing_movies {
+    display: flex !important;
+}
+
+.watch_more {
+    border: 1px solid rgb(242, 107, 56,1)!important;
+
+}
+
+.watch_more a {
+    color: rgb(242, 107, 56,1)!important;
+    text-decoration: none;
+}
+.watch_more:hover {
+    background-color:rgb(242, 107, 56,1)!important ;
+}
+
+.watch_more:hover a {
+    color: white!important;
+}
+
+
+/* Phần đánh giá */
+
+.overlay_full {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+    overflow: hidden;
+}
+
+.evaluate_main-wrap {
+    width: 375px;
+    height: 540px;
+    border-top: 7px solid rgb(245, 128, 32,1 );
+}
+
+.evaluate_img-move {
+    width: 100%;
+    height: 260px;
+}
+
+.evaluate_img-move img {
+    width: 100%;
+    height: 100%;
+}
+
+.star_container {
+    text-align: center;
+    color: #a4a7aa;
+    font-size: 15px;
+}
+
+.star {
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.evaluate_confirm,
+.evaluate_close {
+    width: 50%;
+    height: 32px;
+    border: none;
+    outline: none;
+}
+
+.evaluate_confirm {
+    color: white!important;
+    background-color: rgb(245, 128, 32,1 );
+    opacity: 0.6;
+}
+
+.opacity_1 {
+    opacity: 1;
+}
+
+
+.selected,
+.hovered {
+    color: rgb(245, 128, 32,1 );
+}

@@ -1,0 +1,139 @@
+.container-content {
+    max-width: 1200px;
+}
+
+.content_left {
+    max-width: 790px;
+    width: 790px;
+}
+
+.infor_img {
+    min-width: 255px;
+    width: 255px;
+    height: 385px;
+}
+
+.infor_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.item_img-wrap {
+    width: 180px;
+    max-width: 180px;
+    height: 140px;
+    margin: 0px 10px;
+}
+
+.item_image {
+    width: 100%;
+    height: 100%;
+}
+
+.item_image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.link_page a {
+    color: black;
+    text-decoration: none;
+}
+
+.link_page a:hover {
+    text-decoration: underline;
+}
+
+.infor_main button {
+    border: none;
+    outline: none;
+}
+
+.infor_main button:first-child:hover,
+.infor_main button:nth-child(2):hover {
+    background-color: #034ea2!important;
+}
+
+.content_right {
+    max-width: 380px;
+    width: 380px;
+}
+
+
+.buy_tickets_quickly-title {
+    width: 100%;
+    height: 58px;
+    background-color: #034ea2;
+    color: white;
+    text-transform: capitalize;
+    font-size: 20px;
+    text-align: center;
+    line-height: 58px;
+}
+
+.buy_tickets_quickly-body select {
+    width: 355px;
+    height: 35px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.buy_tickets_quickly-body select option {
+    text-transform: capitalize;
+}
+
+.list_of_currently_showing_movies {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.item_of_currently_showing_movies-img {
+    width: 380px;
+    height: 255px;
+}
+.item_of_currently_showing_movies-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.item_of_currently_showing_movies:hover .item_of_currently_showing_movies-hover{
+    display: flex;
+    cursor: pointer;
+}
+
+.item_of_currently_showing_movies-hover {
+    pointer-events: none;
+}
+
+.display_buy_ticket-showing_movies {
+    background-color: rgba(0,0,0,0.4);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.item_of_currently_showing_movies-img:hover .display_buy_ticket-showing_movies {
+    display: flex !important;
+}
+
+.watch_more {
+    border: 1px solid rgb(242, 107, 56,1)!important;
+
+}
+
+.watch_more a {
+    color: rgb(242, 107, 56,1)!important;
+    text-decoration: none;
+}
+.watch_more:hover {
+    background-color:rgb(242, 107, 56,1)!important ;
+}
+
+.watch_more:hover a {
+    color: white!important;
+}

@@ -1,0 +1,237 @@
+body::-webkit-scrollbar {
+    width: 0px;
+}
+
+.no-scroll {
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+}
+
+.header_main {
+    max-width: 1200px;
+}
+
+.header_center a:hover {
+    color: rgba(245, 129, 31, 1)!important;
+}
+
+.header_center-icon {
+    font-size: 10px;
+    margin-left: 3px;
+}
+
+.select_movies_quickly {
+    position: relative;
+}
+
+.header_center-hover-move {
+    max-width: 700px;
+    min-width: 700px;
+    position: absolute;
+    top: calc(100% + 15px);
+    left: -50px;
+    display: none;
+    z-index: 3;
+}
+
+.select_movies_quickly:hover .header_center-hover-move {
+    display: block;
+}
+
+.header_center-hover-move::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    top: -20px;
+    left: 0px;
+}
+
+.cart_img {
+    position: relative;
+}
+
+.display_buy_ticket {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 140px;
+    height: 200px;
+    top: 0px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart_img:hover .display_buy_ticket {
+    display: flex;
+}
+
+.btn-buy-ticket {
+    background-color: rgba(245, 129, 31, 1);
+}
+
+.btn-buy-ticket:hover {
+    background-color: rgba(245, 129, 31, 0.9);
+}
+
+.name-move {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: pre-wrap;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.cart_img:hover .display_buy_ticket{
+    display: flex;
+    cursor: pointer;
+}
+
+.display_buy_ticket {
+    pointer-events: none;
+}
+
+.cinema_corner,
+.event,
+.cinema {
+    position: relative;
+}
+.cinema_corner:hover a,
+.event:hover a,
+.cinema:hover a {
+    cursor: pointer;
+    color: rgba(245, 129, 31, 1)!important;
+}
+
+.cinema_corner:hover .header_center-hover-cinema-corner,
+.event:hover .header_center-hover-event,
+.cinema:hover .header_center-hover-cinema {
+    display: block;
+    z-index: 4;
+
+}
+
+.header_center-hover-cinema-corner,
+.header_center-hover-event,
+.header_center-hover-cinema {
+    position: absolute;
+    top: calc(100% + 15px);
+    left: -50px;
+    display: none;
+}
+
+.cinema_corner::after,
+.event::after,
+.cinema::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    top: -20px;
+    left: 0px;
+}
+
+.hover-cinema-corner-main ul,
+.hover-event-main ul,
+.hover-cinema-main ul {
+    list-style: none;
+    width: 200px;
+    padding-left: 0px;
+}
+
+.hover-cinema-corner-main li:hover,
+.hover-event-main li:hover,
+.hover-cinema-main li:hover {
+    border-left: 4px solid rgba(245, 129, 31, 1);
+    background-color: rgba(245, 129, 31, 0.1)
+}
+
+.header_center-hover-cinema ul {
+    max-height: 280px;
+    height: 280px;
+    width: 200px;
+    overflow-y: scroll;
+}
+
+.header_center-hover-cinema ul::-webkit-scrollbar {
+    width: 5px;
+}
+
+.header_center-hover-cinema ul::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 5px;
+}
+
+.login a:hover {
+    color: rgba(245, 129, 31, 1)!important;
+}
+.icon_search {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.input_search input {
+    width:200px;
+    border: none;
+    outline: none;
+}
+
+.search {
+    position: relative;
+}
+footer {
+    background-color: #333;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(189, 189, 189);
+    font-size: 15px;
+}
+
+footer a:hover {
+    color: #e86e30;
+}
+
+footer i {
+    font-size: 35px;
+}
+
+.facebook:hover,
+.youtube:hover,
+.instagram:hover
+ {
+   color:#e86e30 ;
+}
+
+.contact i,
+.contact a {
+    font-size: 12px;
+    color: rgba(108,117 , 125, 1);
+}
+
+.contact a:hover {
+    color:#e86e30 ;
+}
+
+/* login */
+.form-group .error {
+    /* margin-bottom: 1.5rem!important; */
+    color: red!important;
+}
+
+.form-group.select-gender {
+    margin-bottom: 0.25rem!important;
+}
+
+/* Hiệu ứng chờ */
+

@@ -1,0 +1,294 @@
+
+
+
+.slick-prev {
+    border: none;
+    outline: none;
+    position: absolute;
+    left: -30px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 4;
+}
+
+.slick-next {
+    border: none;
+    outline: none;
+    position: absolute;
+    right: -30px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 4;
+}
+
+.slick-prev i {
+    font-size: 20px;
+    color: white;
+    padding-left: 20px;
+
+}
+
+.slick-next i {
+    font-size: 20px;
+    color: white;
+    padding-right: 20px;
+}
+
+.banner-wrapper {
+    height: 400px;
+    overflow: hidden;
+}
+
+@media (min-width: 1500px) {
+    .banner-wrapper {
+        height: auto;
+    }
+}
+
+.buy_tickets_quickly {
+    left: calc(58% + 4px);
+    max-width: 1365px;
+}
+
+.btn_buy-ticket {
+    background-color:rgba(252, 140, 49, 0.8)!important;
+}
+
+.buy_tickets_main {
+    height: 58px!important;
+}
+.number {
+    color: white;
+    width: 15px;
+    height: 15px;
+    background-color: rgba(245, 129, 31, 1);
+    font-size: 10px;
+
+}
+
+.buy_tickets_main select {
+    border: none;
+    outline: none;
+}
+
+.content_main {
+    margin-top: 80px;
+
+}
+
+.content_main ul {
+    list-style: none;
+}
+
+.active {
+    color: rgb(6, 6, 148)!important;
+    border-bottom: 2px solid rgb(6, 6, 148) ;
+}
+
+
+.list_move-item img {
+    width: 100%;
+   height: auto;
+}
+
+.list_move-item-hover {
+    background-color: rgba(0, 0, 0, 0.4);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.list_move-item:hover .list_move-item-hover{
+    display: flex;
+    cursor: pointer;
+}
+
+.list_move-item-hover {
+    pointer-events: none;
+}
+
+.list_move-item-hover .btn,
+.list_move-item-hover a {
+    pointer-events: auto;
+}
+
+
+
+.btn-watch-trailer:hover {
+    background-color: rgba(245, 129, 31, 0.8)!important;
+    border: none!important;
+}
+
+.slider_promotion-item {
+    width: 312px;
+}
+
+.watch_more {
+    border: 1px solid rgb(242, 107, 56,1)!important;
+
+}
+
+.watch_more a {
+    color: rgb(242, 107, 56,1)!important;
+    text-decoration: none;
+}
+.watch_more:hover {
+    background-color:rgb(242, 107, 56,1)!important ;
+}
+
+.watch_more:hover a {
+    color: white!important;
+}
+.list_move {
+    display: grid;
+    display: grid;
+    grid-template-columns: repeat(4, 265px);
+    gap: 30px;
+}
+
+
+.infor_main {
+    width: 536px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.infor_main img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s ease;
+}
+
+.infor_main:hover img {
+    transform: scale(1.05);
+}
+
+.infor_main:hover a {
+    color: rgb(80, 80, 250)!important;
+}
+
+.infor_main button {
+    border: none;
+    outline: none;
+    width: 60px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.infor_main button i {
+    font-size: 9px;
+}
+
+.infor_main button span{
+    font-size: 10px;
+}
+
+.infor_select {
+    width: 590px;
+    height: auto;
+    margin-left: 10px;
+}
+
+.infor_select_item img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s ease;
+}
+
+.infor_select_item:hover img {
+    transform: scale(1.05);
+}
+
+.infor_select-name:hover a {
+    color: rgb(80, 80, 250)!important;
+}
+
+.infor_select button {
+    border: none;
+    outline: none;
+    width: 60px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.infor_select button i {
+    font-size: 9px;
+}
+
+.infor_select button span{
+    font-size: 10px;
+}
+
+.infor_select-name {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.slider_promotion-item-wrap {
+    width: 100%;
+    margin: 0px 20px;
+}
+
+.link_app_main {
+    background-color: #1c3685;
+}
+.phone_main {
+    width: 200px;
+    height: 410px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+.phone_main img {
+    width: 100%;
+}
+
+
+.list_img_phone img {
+    width: 200px;
+    height: 410px;
+    border-radius: 30px;
+}
+
+.content_introduce a {
+    text-decoration: none;
+}
+
+/* Trailer */
+.trailer_frame {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9;
+}
+
+.trailer_frame-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: 8; /* Thiết lập z-index thấp hơn để đảm bảo nằm dưới trailer_frame */
+}
+
+.trailer_frame .trailer_frame-wrap {
+    position: relative; /* Đặt position là relative để các thành phần bên trong có thể định vị tương đối */
+    width: 1230px;
+    height: 510px;
+    z-index: 10; /* Thiết lập z-index cao hơn để nằm trên cả trailer_frame và trailer_frame-overlay */
+}
+

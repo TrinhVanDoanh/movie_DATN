@@ -1,0 +1,140 @@
+.overlay_login {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    z-index: 99;
+}
+
+
+
+
+
+.form_login,
+.form_register {
+    width: 400px;
+    height: auto;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.login_wrap,
+.register_wrap {
+    padding: 40px 20px;
+}
+
+.login_wrap form,
+.register_wrap form  {
+    text-align: left;
+}
+
+.login_wrap form label,
+.register_wrap form label  {
+    font-size: 11px;
+}
+
+.login_wrap form input,
+.register_wrap form input {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding-left: 15px;
+}
+
+
+
+.login_wrap form input:focus,
+.register_wrap form input:focus {
+    border: 2px solid #4a87ff;
+
+}
+
+form a:hover {
+    color: #f58020!important;
+}
+
+.login_wrap button,
+.register_wrap button {
+    width: 100%;
+    height: 40px;
+    color: #f58020;
+    border: 1px solid #f58020;
+    border-radius: 5px;
+    background-color: white;
+}
+
+#link_register:hover,
+#link_login:hover{
+    background-color: #e38601!important;
+    color: white!important;
+}
+
+.close_login {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background-color: #ececec;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    border: 1px solid #ccc;
+}
+
+.close_login i {
+    font-size: 17px;
+    color: #8d8d8d;
+}
+
+
+/* logout */
+.name_user:hover{
+    color: #f58020!important;
+}
+
+.logout ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.logout ul li:hover {
+    border-left: 3px solid #f58020;
+    background-color: rgba(245, 128, 32,0.1);
+    transition:ease 0.2s ;
+}
+.logout {
+    position: relative;
+}
+
+.logout::after {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 20px;
+        position: absolute;
+        top: 100%;
+        left: 0px;
+}
+.logout:hover .select_logout{
+    display: block;
+}
+.select_logout {
+    display: none;
+    width: 205px;
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px grey;
+    position: absolute;
+    top:calc(100% + 10px) ;
+    left: -20px;
+    z-index: 999;
+}
